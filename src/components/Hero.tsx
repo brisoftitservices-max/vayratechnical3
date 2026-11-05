@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight, Phone, ShieldCheck, MapPin } from 'lucide-react';
 import { Language } from '../types';
 import { translations } from '../data/translations';
+import heroImage from '../assets/images/hero_hvac_mep_1793794632219.jpg';
 
 interface HeroProps {
   language: Language;
@@ -17,7 +18,7 @@ export const Hero: React.FC<HeroProps> = ({ language, onRequestQuote, onExploreS
       {/* Background Photography with High Contrast Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_hvac_mep_1793794632219.jpg"
+          src="heroImage"
           alt="Commercial rooftop HVAC chillers and MEP plant overlooking Abu Dhabi"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center scale-105 transform motion-safe:transition-transform motion-safe:duration-1000"
