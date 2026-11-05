@@ -154,7 +154,7 @@ export const projectsData: ProjectItem[] = [
     locationEn: 'Khalifa City, Abu Dhabi',
     locationAr: 'مدينة خليفة، أبوظبي',
     category: 'residential',
-    imageUrl: 'luxuryVillaImage',
+    imageUrl: luxuryVillaImage,
     metricsEn: 'Zero catastrophic AC failures across 2 consecutive summers',
     metricsAr: 'انعدام أي توقف مفاجئ لمكيفات المجمع على مدار موسمي صيف متتاليين',
     descriptionEn: 'Multi-year turnkey Annual Maintenance Contract (AMC) managing over 250 ducted split and package AC units, domestic booster pumps, solar water heating systems, and electrical distribution boards with 24/7 on-call dispatch.',
