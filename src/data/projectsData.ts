@@ -1,4 +1,8 @@
 import { ProjectItem } from '../types';
+import heroHvacImage from '../assets/images/hero_hvac_mep_1793794632219.jpg';
+import commercialMepImage from '../assets/images/project_commercial_mep_1793794632182.jpg';
+import luxuryVillaImage from '../assets/images/project_luxury_villa_ac_1793794632873.jpg';
+import industrialChillerImage from '../assets/images/project_industrial_chiller_1793794633150.jpg';
 
 export const projectsData: ProjectItem[] = [
   {
